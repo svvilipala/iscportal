@@ -1,6 +1,3 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 function CulturalClubs() {
   const clubs = [
     {
@@ -25,7 +22,6 @@ function CulturalClubs() {
 
   return (
     <div className="page">
-      <Navbar />
       <main className="clubs-content">
         <h1>Cultural Clubs</h1>
         
@@ -40,7 +36,6 @@ function CulturalClubs() {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   );
 }

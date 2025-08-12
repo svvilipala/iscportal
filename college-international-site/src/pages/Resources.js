@@ -1,10 +1,6 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 function Resources() {
   return (
     <div className="page">
-      <Navbar />
       <main className="resources-content">
         <h1>Student Resources</h1>
         
@@ -35,7 +31,6 @@ function Resources() {
           </ul>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

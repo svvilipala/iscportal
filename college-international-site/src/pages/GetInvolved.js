@@ -1,10 +1,6 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 function GetInvolved() {
   return (
     <div className="page">
-      <Navbar />
       <main className="involved-content">
         <h1>Get Involved</h1>
         
@@ -26,7 +22,6 @@ function GetInvolved() {
           <button className="action-button">View Schedule</button>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

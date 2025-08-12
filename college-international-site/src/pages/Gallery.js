@@ -1,6 +1,3 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 function Gallery() {
   // In a real app, these would be imported images
   const photoAlbums = [
@@ -23,7 +20,6 @@ function Gallery() {
 
   return (
     <div className="page">
-      <Navbar />
       <main className="gallery-content">
         <h1>Photo Gallery</h1>
         
@@ -43,7 +39,6 @@ function Gallery() {
           <button className="upload-button">Upload Photos</button>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

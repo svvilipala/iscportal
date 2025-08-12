@@ -1,6 +1,3 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 function Events() {
   const upcomingEvents = [
     {
@@ -19,7 +16,6 @@ function Events() {
 
   return (
     <div className="page">
-      <Navbar />
       <main className="events-content">
         <h1>Upcoming Events</h1>
         
@@ -34,7 +30,6 @@ function Events() {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   );
 }

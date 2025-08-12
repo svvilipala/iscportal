@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 function Payments() {
   const [formData, setFormData] = useState({
@@ -32,7 +30,6 @@ function Payments() {
 
   return (
     <div className="page">
-      <Navbar />
       <main className="payments-content">
         <h1>Support & Payments</h1>
         <p className="subtitle">Pay for events, club fees, or contribute to international student programs.</p>
@@ -117,7 +114,6 @@ function Payments() {
           </div>
         </form>
       </main>
-      <Footer />
     </div>
   );
 }
